@@ -1,0 +1,86 @@
+/*
+Theme name: Law firm
+Author: Godfrey Desidery
+Description: Website created for a law firm
+Version: 1.0.0
+*/
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.hero-cta {
+    margin-top: 20px;
+}
+.hero-cta .elementor-icon-box-wrapper {
+    position: relative;
+    top: -30px;
+}
+
+.strong-view .wpmtst-modern .wpmtst-testimonial-content:before, .strong-view .wpmtst-modern .wpmtst-testimonial-content:after {
+    background: var( --e-global-color-primary ) !important;
+    color: var( --e-global-color-primary ) !important;
+}
+
+.homepage-services {
+    position: relative;
+    min-height: 275px;
+    text-align: center;
+    color: #fff;
+}
+
+.homepage-services .content {
+    position: relative;
+    align-items: center;
+    top: -60px;
+    width: 100%;
+    margin-left: 0px;
+    padding-left: 0px;
+    background-color: var( --e-global-color-primary );
+}
+
+.homepage-services .content .icon {
+    background-color: var( --e-global-color-primary );
+    fill: #fff;
+    color: #fff;
+    font-size: 33px;
+    padding-top: 0.9em;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    width: 91px;
+    height: 91px;
+}
+
+.homepage-services .content .title {
+    background-color: var( --e-global-color-primary );
+    fill: #fff;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 0.9em;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.homepage-services .content .description {
+    background-color: var( --e-global-color-primary );
+    fill: #fff;
+    color: #fff;
+    font-size: 10px;
+    padding-top: 0.9em;
+    text-align: center;  
+    width: 100%;    
+}
+
+.practice-area-box {
+    background-color: var( --e-global-color-primary );
+    padding: 25px;
+    margin: 15px;
+    width: 100%;
+    font-size: 12px;
+}
+
+.full-row {
+    width: 100%;
+}
